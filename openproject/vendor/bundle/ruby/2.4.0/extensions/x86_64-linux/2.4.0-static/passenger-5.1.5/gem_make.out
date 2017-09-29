@@ -1,0 +1,17 @@
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/passenger-5.1.5/src/helper-scripts/download_binaries
+/tmp/d20170809-47-f8jxtr/opt/openproject/vendor/ruby-2.4.1/bin/ruby -r ./siteconf20170809-836-14z00qt.rb extconf.rb
+Attempting to download https://oss-binaries.phusionpassenger.com/binaries/passenger/by_release/5.1.5/rubyext-ruby-2.4.1-x86_64-linux.tar.gz into /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/passenger-5.1.5/download_cache
+Attempting to download https://oss-binaries.phusionpassenger.com/binaries/passenger/by_release/5.1.5/nginx-1.10.3-x86_64-linux.tar.gz into /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/passenger-5.1.5/download_cache
+Attempting to download https://oss-binaries.phusionpassenger.com/binaries/passenger/by_release/5.1.5/agent-x86_64-linux.tar.gz into /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/passenger-5.1.5/download_cache
+
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/passenger-5.1.5/src/helper-scripts/download_binaries
+make "DESTDIR=" clean
+true
+
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/passenger-5.1.5/src/helper-scripts/download_binaries
+make "DESTDIR="
+true
+
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/passenger-5.1.5/src/helper-scripts/download_binaries
+make "DESTDIR=" install
+true

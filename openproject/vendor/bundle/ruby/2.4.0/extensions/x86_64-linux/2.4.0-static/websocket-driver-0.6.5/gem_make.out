@@ -1,0 +1,15 @@
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+/tmp/d20170809-47-f8jxtr/opt/openproject/vendor/ruby-2.4.1/bin/ruby -r ./siteconf20170809-836-1a4uk83.rb extconf.rb
+creating Makefile
+
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20170809-836-7r2z14

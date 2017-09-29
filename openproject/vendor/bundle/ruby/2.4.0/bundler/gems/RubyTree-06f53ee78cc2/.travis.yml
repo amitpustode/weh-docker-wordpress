@@ -1,0 +1,38 @@
+language: ruby
+before_install:
+  - gem install bundler
+  - 'echo "gem: --no-ri --no-rdoc" > ~/.gemrc'
+  - bundle --version
+  - gem --version
+bundler_args: --without development
+
+rvm:
+  - 1.9.2
+  - 1.9.3
+  - 2.0.0
+  - 2.2.1
+  - 2.3.3
+  - 2.4.0
+#  - ruby-head    # The latest Ruby, whatever version it happens to be.
+# - jruby-18mode
+# - jruby-19mode
+
+
+matrix:
+  allow_failures:
+    - rvm: rbx                  # rbx is still troublesome.
+  include:
+    - rvm: rbx
+      gemfile: gemfiles/Gemfile.rbx
+    - rvm: 2.1.5
+      env: COVERAGE=true
+  exclude:
+    - rvm: rbx
+      gemfile: Gemfile
+
+# blacklist
+branches:
+  except:
+    - develop
+    - rt-site
+    - gh-pages

@@ -1,0 +1,19 @@
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/bcrypt-3.1.11/ext/mri
+/tmp/d20170809-47-f8jxtr/opt/openproject/vendor/ruby-2.4.1/bin/ruby -r ./siteconf20170809-836-lerlzb.rb extconf.rb
+creating Makefile
+
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR=" clean
+
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.so
+
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20170809-836-vtswk0

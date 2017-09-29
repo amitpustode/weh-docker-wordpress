@@ -1,0 +1,54 @@
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/syck-1.3.0/ext/syck
+/tmp/d20170809-47-f8jxtr/opt/openproject/vendor/ruby-2.4.1/bin/ruby -r ./siteconf20170809-836-1b6rbwb.rb extconf.rb
+checking for st.h... yes
+creating Makefile
+
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/syck-1.3.0/ext/syck
+make "DESTDIR=" clean
+
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/syck-1.3.0/ext/syck
+make "DESTDIR="
+compiling bytecode.c
+compiling emitter.c
+compiling gram.c
+compiling handler.c
+compiling implicit.c
+compiling node.c
+compiling rubyext.c
+rubyext.c: In function ‘syck_seq_initialize’:
+rubyext.c:1533:15: warning: variable ‘node’ set but not used [-Wunused-but-set-variable]
+     SyckNode *node;
+               ^
+rubyext.c: In function ‘rb_syck_err_handler’:
+rubyext.c:675:1: warning: function might be candidate for attribute ‘noreturn’ [-Wsuggest-attribute=noreturn]
+ rb_syck_err_handler(SyckParser *p, const char *msg)
+ ^
+rubyext.c: At top level:
+cc1: warning: unrecognized command line option "-Wno-self-assign" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-constant-logical-operand" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-parentheses-equality" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-tautological-compare" [enabled by default]
+compiling syck.c
+syck.c: In function ‘syck_assert’:
+syck.c:21:1: warning: function might be candidate for attribute ‘noreturn’ [-Wsuggest-attribute=noreturn]
+ syck_assert( const char *file_name, unsigned line_num, const char *expr )
+ ^
+syck.c: At top level:
+cc1: warning: unrecognized command line option "-Wno-self-assign" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-constant-logical-operand" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-parentheses-equality" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-tautological-compare" [enabled by default]
+compiling token.c
+token.re: In function ‘sycklex_yaml_utf8’:
+token.re:541:36: warning: variable ‘lvl’ set but not used [-Wunused-but-set-variable]
+token.re: At top level:
+cc1: warning: unrecognized command line option "-Wno-self-assign" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-constant-logical-operand" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-parentheses-equality" [enabled by default]
+cc1: warning: unrecognized command line option "-Wno-tautological-compare" [enabled by default]
+compiling yaml2byte.c
+linking shared-object syck.so
+
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/syck-1.3.0/ext/syck
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 syck.so ./.gem.20170809-836-1c9ovps

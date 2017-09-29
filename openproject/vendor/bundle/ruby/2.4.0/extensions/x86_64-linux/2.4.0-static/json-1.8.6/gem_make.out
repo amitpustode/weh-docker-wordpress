@@ -1,0 +1,13 @@
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/json-1.8.6/ext/json
+/tmp/d20170809-47-f8jxtr/opt/openproject/vendor/ruby-2.4.1/bin/ruby -r ./siteconf20170809-836-1bnx3pt.rb extconf.rb
+creating Makefile
+
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /tmp/d20170809-47-f8jxtr/opt/openproject/vendor/bundle/ruby/2.4.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" install

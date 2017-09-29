@@ -1,0 +1,57 @@
+---
+user: openproject
+group: openproject
+targets:
+  debian-7:
+    build_dependencies: &1
+    - libmagickwand-dev
+    - libsqlite3-dev
+    dependencies: &2
+    - libmagickwand5
+  debian-8:
+    build_dependencies: &3
+    - libmagickwand-dev
+    - libsqlite3-dev
+    dependencies: &4
+    - libmagickwand-6.q16-2
+  ubuntu-14.04:
+    build_dependencies: *1
+    dependencies: *2
+  ubuntu-16.04:
+    build_dependencies: *3
+    dependencies: *4
+  centos-7:
+    build_dependencies:
+    - ImageMagick-devel
+    dependencies:
+    - epel-release
+    - ImageMagick
+  sles-11:
+    env:
+    - EMBED_IMAGEMAGICK=true
+  sles-12:
+    build_dependencies:
+    - ImageMagick-devel
+    dependencies:
+    - ImageMagick
+before_precompile: packaging/setup
+crons:
+- packaging/cron/openproject-clear-old-sessions
+- packaging/cron/openproject-clear-uploaded-files
+services:
+- postgres
+installer: https://github.com/pkgr/installer.git
+wizards:
+- https://github.com/pkgr/addon-legacy-installer.git
+- https://github.com/pkgr/addon-mysql.git
+- https://github.com/pkgr/addon-apache2.git
+- https://github.com/finnlabs/addon-repositories.git
+- https://github.com/pkgr/addon-smtp.git
+- https://github.com/pkgr/addon-memcached.git
+- https://github.com/pkgr/addon-openproject.git
+buildpack: https://github.com/opf/heroku-buildpack-multi.git
+:description: Official OpenProject Community Edition
+:name: openproject
+:vendor: Packager.io <https://packager.io>
+:maintainer: support@packager.io
+:version: 7.2.3

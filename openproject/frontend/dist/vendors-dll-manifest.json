@@ -1,0 +1,757 @@
+{
+  "name": "vendors",
+  "content": {
+    "./node_modules/moment/moment.js": {
+      "id": 0,
+      "meta": {}
+    },
+    "./node_modules/jquery/dist/jquery.js": {
+      "id": 1,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/version.js": {
+      "id": 2,
+      "meta": {}
+    },
+    "./node_modules/webpack/buildin/global.js": {
+      "id": 3,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/widget.js": {
+      "id": 4,
+      "meta": {}
+    },
+    "./node_modules/angular/index.js": {
+      "id": 5,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/keycode.js": {
+      "id": 6,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/position.js": {
+      "id": 7,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/safe-active-element.js": {
+      "id": 8,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/widgets/mouse.js": {
+      "id": 9,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/widgets/datepicker.js": {
+      "id": 10,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/de.js": {
+      "id": 11,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/en-gb.js": {
+      "id": 12,
+      "meta": {}
+    },
+    "./node_modules/URIjs/src/URI.js": {
+      "id": 13,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/data.js": {
+      "id": 14,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/escape-selector.js": {
+      "id": 15,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/focusable.js": {
+      "id": 16,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/ie.js": {
+      "id": 17,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/plugin.js": {
+      "id": 18,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/safe-blur.js": {
+      "id": 19,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/scroll-parent.js": {
+      "id": 20,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/unique-id.js": {
+      "id": 21,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/widgets/dialog.js": {
+      "id": 22,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/af.js": {
+      "id": 23,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/ar-dz.js": {
+      "id": 24,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/ar-ly.js": {
+      "id": 25,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/ar-ma.js": {
+      "id": 26,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/ar-sa.js": {
+      "id": 27,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/ar-tn.js": {
+      "id": 28,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/ar.js": {
+      "id": 29,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/az.js": {
+      "id": 30,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/be.js": {
+      "id": 31,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/bg.js": {
+      "id": 32,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/bn.js": {
+      "id": 33,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/bo.js": {
+      "id": 34,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/br.js": {
+      "id": 35,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/bs.js": {
+      "id": 36,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/ca.js": {
+      "id": 37,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/cs.js": {
+      "id": 38,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/cv.js": {
+      "id": 39,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/cy.js": {
+      "id": 40,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/da.js": {
+      "id": 41,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/de-at.js": {
+      "id": 42,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/dv.js": {
+      "id": 43,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/el.js": {
+      "id": 44,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/en-au.js": {
+      "id": 45,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/en-ca.js": {
+      "id": 46,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/en-ie.js": {
+      "id": 47,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/en-nz.js": {
+      "id": 48,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/eo.js": {
+      "id": 49,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/es-do.js": {
+      "id": 50,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/es.js": {
+      "id": 51,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/et.js": {
+      "id": 52,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/eu.js": {
+      "id": 53,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/fa.js": {
+      "id": 54,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/fi.js": {
+      "id": 55,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/fo.js": {
+      "id": 56,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/fr-ca.js": {
+      "id": 57,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/fr-ch.js": {
+      "id": 58,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/fr.js": {
+      "id": 59,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/fy.js": {
+      "id": 60,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/gd.js": {
+      "id": 61,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/gl.js": {
+      "id": 62,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/he.js": {
+      "id": 63,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/hi.js": {
+      "id": 64,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/hr.js": {
+      "id": 65,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/hu.js": {
+      "id": 66,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/hy-am.js": {
+      "id": 67,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/id.js": {
+      "id": 68,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/is.js": {
+      "id": 69,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/it.js": {
+      "id": 70,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/ja.js": {
+      "id": 71,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/jv.js": {
+      "id": 72,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/ka.js": {
+      "id": 73,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/kk.js": {
+      "id": 74,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/km.js": {
+      "id": 75,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/ko.js": {
+      "id": 76,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/ky.js": {
+      "id": 77,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/lb.js": {
+      "id": 78,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/lo.js": {
+      "id": 79,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/lt.js": {
+      "id": 80,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/lv.js": {
+      "id": 81,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/me.js": {
+      "id": 82,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/mi.js": {
+      "id": 83,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/mk.js": {
+      "id": 84,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/ml.js": {
+      "id": 85,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/mr.js": {
+      "id": 86,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/ms-my.js": {
+      "id": 87,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/ms.js": {
+      "id": 88,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/my.js": {
+      "id": 89,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/nb.js": {
+      "id": 90,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/ne.js": {
+      "id": 91,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/nl-be.js": {
+      "id": 92,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/nl.js": {
+      "id": 93,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/nn.js": {
+      "id": 94,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/pa-in.js": {
+      "id": 95,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/pl.js": {
+      "id": 96,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/pt-br.js": {
+      "id": 97,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/pt.js": {
+      "id": 98,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/ro.js": {
+      "id": 99,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/ru.js": {
+      "id": 100,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/se.js": {
+      "id": 101,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/si.js": {
+      "id": 102,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/sk.js": {
+      "id": 103,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/sl.js": {
+      "id": 104,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/sq.js": {
+      "id": 105,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/sr-cyrl.js": {
+      "id": 106,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/sr.js": {
+      "id": 107,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/ss.js": {
+      "id": 108,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/sv.js": {
+      "id": 109,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/sw.js": {
+      "id": 110,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/ta.js": {
+      "id": 111,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/te.js": {
+      "id": 112,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/tet.js": {
+      "id": 113,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/th.js": {
+      "id": 114,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/tl-ph.js": {
+      "id": 115,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/tlh.js": {
+      "id": 116,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/tr.js": {
+      "id": 117,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/tzl.js": {
+      "id": 118,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/tzm-latn.js": {
+      "id": 119,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/tzm.js": {
+      "id": 120,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/uk.js": {
+      "id": 121,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/uz.js": {
+      "id": 122,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/vi.js": {
+      "id": 123,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/x-pseudo.js": {
+      "id": 124,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/yo.js": {
+      "id": 125,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/zh-cn.js": {
+      "id": 126,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/zh-hk.js": {
+      "id": 127,
+      "meta": {}
+    },
+    "./node_modules/moment/locale/zh-tw.js": {
+      "id": 128,
+      "meta": {}
+    },
+    "./node_modules/process/browser.js": {
+      "id": 129,
+      "meta": {}
+    },
+    "./node_modules/timers-browserify/main.js": {
+      "id": 130,
+      "meta": {}
+    },
+    "./node_modules/webpack/buildin/module.js": {
+      "id": 131,
+      "meta": {}
+    },
+    "./app/vendors.js": {
+      "id": 132,
+      "meta": {}
+    },
+    "./app/misc/datepicker-defaults.js": {
+      "id": 133,
+      "meta": {}
+    },
+    "./node_modules/URIjs/src/IPv6.js": {
+      "id": 134,
+      "meta": {}
+    },
+    "./node_modules/URIjs/src/SecondLevelDomains.js": {
+      "id": 135,
+      "meta": {}
+    },
+    "./node_modules/URIjs/src/URITemplate.js": {
+      "id": 136,
+      "meta": {}
+    },
+    "./node_modules/URIjs/src/punycode.js": {
+      "id": 137,
+      "meta": {}
+    },
+    "./node_modules/angular-animate/angular-animate.min.js": {
+      "id": 138,
+      "meta": {}
+    },
+    "./node_modules/angular-aria/angular-aria.min.js": {
+      "id": 139,
+      "meta": {}
+    },
+    "./node_modules/angular-cache/dist/angular-cache.min.js": {
+      "id": 140,
+      "meta": {}
+    },
+    "./node_modules/angular-context-menu/dist/angular-context-menu.min.js": {
+      "id": 141,
+      "meta": {}
+    },
+    "./node_modules/angular-dragula/dist/angular-dragula.min.js": {
+      "id": 142,
+      "meta": {}
+    },
+    "./node_modules/angular-elastic/elastic.js": {
+      "id": 143,
+      "meta": {}
+    },
+    "./node_modules/angular-modal/modal.min.js": {
+      "id": 144,
+      "meta": {}
+    },
+    "./node_modules/angular-sanitize/angular-sanitize.min.js": {
+      "id": 145,
+      "meta": {}
+    },
+    "./node_modules/angular-truncate/src/truncate.js": {
+      "id": 146,
+      "meta": {}
+    },
+    "./node_modules/angular-ui-router/release/angular-ui-router.min.js": {
+      "id": 147,
+      "meta": {}
+    },
+    "./node_modules/angular-ui-router/release/stateEvents.min.js": {
+      "id": 148,
+      "meta": {}
+    },
+    "./node_modules/angular/angular.js": {
+      "id": 149,
+      "meta": {}
+    },
+    "./node_modules/dragula/dist/dragula.min.js": {
+      "id": 150,
+      "meta": {}
+    },
+    "./node_modules/es6-promise/dist/es6-promise.js": {
+      "id": 151,
+      "meta": {}
+    },
+    "./node_modules/expose-loader/index.js?Promise!./node_modules/es6-promise/dist/es6-promise.js": {
+      "id": 152,
+      "meta": {}
+    },
+    "./node_modules/expose-loader/index.js?URI!./node_modules/URIjs/src/URI.js": {
+      "id": 153,
+      "meta": {}
+    },
+    "./node_modules/expose-loader/index.js?angular!./node_modules/angular/index.js": {
+      "id": 154,
+      "meta": {}
+    },
+    "./node_modules/expose-loader/index.js?dragula!./node_modules/dragula/dist/dragula.min.js": {
+      "id": 155,
+      "meta": {}
+    },
+    "./node_modules/expose-loader/index.js?jQuery!./node_modules/jquery/dist/jquery.js": {
+      "id": 156,
+      "meta": {}
+    },
+    "./node_modules/expose-loader/index.js?moment!./node_modules/moment/moment.js": {
+      "id": 157,
+      "meta": {}
+    },
+    "./node_modules/expose-loader/index.js?mousetrap!./node_modules/mousetrap/mousetrap.min.js": {
+      "id": 158,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/core.js": {
+      "id": 159,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/disable-selection.js": {
+      "id": 160,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/form-reset-mixin.js": {
+      "id": 161,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/form.js": {
+      "id": 162,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/i18n/datepicker-de.js": {
+      "id": 163,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/i18n/datepicker-en-GB.js": {
+      "id": 164,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/labels.js": {
+      "id": 165,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/tabbable.js": {
+      "id": 166,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/widgets/autocomplete.js": {
+      "id": 167,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/widgets/button.js": {
+      "id": 168,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/widgets/checkboxradio.js": {
+      "id": 169,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/widgets/controlgroup.js": {
+      "id": 170,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/widgets/draggable.js": {
+      "id": 171,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/widgets/menu.js": {
+      "id": 172,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/widgets/resizable.js": {
+      "id": 173,
+      "meta": {}
+    },
+    "./node_modules/jquery-ui/ui/widgets/sortable.js": {
+      "id": 174,
+      "meta": {}
+    },
+    "./node_modules/jquery-ujs/src/rails.js": {
+      "id": 175,
+      "meta": {}
+    },
+    "./node_modules/jquery.caret/dist/jquery.caret.js": {
+      "id": 176,
+      "meta": {}
+    },
+    "./node_modules/moment-timezone/builds/moment-timezone-with-data.min.js": {
+      "id": 177,
+      "meta": {}
+    },
+    "./node_modules/moment/locale recursive ^\\.\\/.*$": {
+      "id": 178,
+      "meta": {}
+    },
+    "./node_modules/mousetrap/mousetrap.min.js": {
+      "id": 179,
+      "meta": {}
+    },
+    "./node_modules/ng-dialog/js/ngDialog.min.js": {
+      "id": 180,
+      "meta": {}
+    },
+    "./node_modules/ng-file-upload/dist/ng-file-upload.min.js": {
+      "id": 181,
+      "meta": {}
+    },
+    "./node_modules/phantomjs-polyfill/bind-polyfill.js": {
+      "id": 182,
+      "meta": {}
+    },
+    "./node_modules/setimmediate/setImmediate.js": {
+      "id": 183,
+      "meta": {}
+    },
+    "./node_modules/ui-select/dist/select.min.js": {
+      "id": 184,
+      "meta": {}
+    },
+    "./node_modules/webpack/buildin/amd-options.js": {
+      "id": 185,
+      "meta": {}
+    },
+    "./vendor/at.js/jquery.atwho.min.js": {
+      "id": 186,
+      "meta": {}
+    },
+    "./vendor/select2/select2.min.js": {
+      "id": 187,
+      "meta": {}
+    }
+  }
+}
